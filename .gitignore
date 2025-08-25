@@ -1,0 +1,17 @@
+# Build results
+**/bin/
+**/obj/
+**/Debug/
+**/Release/
+
+# NuGet packages
+*.nupkg
+*.snupkg
+
+# Rider IDE
+.idea/
+*.sln.iml
+
+!**/libs/**/*.dll
+!**/libs/**/*.so
+!**/libs/**/*.dylib

@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net8.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+        <RootNamespace>GridOCLibrary</RootNamespace>
+    </PropertyGroup>
+    <ItemGroup>
+        <None Include="libs\gridoc.dll">
+            <Pack>true</Pack>
+            <PackagePath>runtimes\win-x64\native\</PackagePath>
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+    </ItemGroup> 
+
+</Project>
