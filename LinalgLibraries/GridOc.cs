@@ -8,12 +8,12 @@ public static class GridOc
     
     [DllImport(LibraryName, CallingConvention = CallingConvention.Cdecl)]
     public static extern void gridoc_solve(
-        uint collocation_points,
-        uint left_boundary_points,
-        uint right_boundary_points,
-        double r_max,
-        double time_constant,
-        [Out] double[] solution_out,
-        out int solution_size_out
+        uint collocationPoints,
+        uint leftBoundaryPoints,
+        uint rightBoundaryPoints,
+        double rMax,
+        double timeConstant,
+        [Out] double[] solutionOut,
+        out int solutionSizeOut
     );
 }
